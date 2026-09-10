@@ -479,7 +479,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -611,14 +611,86 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink1Description",
+          "name": "ComponentLink1Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink1URL",
+          "name": "ComponentLink1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink2Description",
+          "name": "ComponentLink2Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink2URL",
+          "name": "ComponentLink2URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Product Name",
+          "name": "Product Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stok Kodu",
+          "name": "Stok Kodu",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Link",
+          "name": "Supplier Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referans"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -661,13 +733,21 @@
         "uuid": "9c97086d-d7a8-4400-ae13-8b5103130d07"
       }
     ],
-    "used_designators": "U1,BZ1,J1,R1-5,#PWR1-15,#PWR22-23,#PWR29-32,C1-2,Q1-2,H1",
+    "used_designators": "U1-2,R1-9,J1,BZ1,#PWR1-34,C1-2,C6-7,Q1-2,H1-2,BH1",
     "variants": []
   },
   "sheets": [
     [
       "9c97086d-d7a8-4400-ae13-8b5103130d07",
       "Kök"
+    ],
+    [
+      "2e7bfb0b-ad18-4fb1-ae00-d994569cc185",
+      "ControlBoard"
+    ],
+    [
+      "760a5be0-9153-4e68-b08c-e0bd3d31bcc6",
+      "DisplayBoard"
     ]
   ],
   "text_variables": {},
